@@ -1,1 +1,14 @@
-A short program that will add roman numerals.
+A short program that will add roman numerals less than M.
+
+The first line of input is a number `N` which signifies the number of lines of subsequent input to read.
+Each of the following `N` lines will consist of a string of the following form:
+  X+Y=0
+where 0 < X,Y < 1000, and X and Y are both roman numerals.
+
+The program will add the numbers, and output the equation and the sum in roman numerals if it is less than 1000. 
+If it is greater than 1000 it will instead output "CONCORDIA CUM VERITATE", which is Waterloo's motto,
+"In Harmony with Truth".
+Output will therefore take the following form:
+  X+Y=Z
+Where X,Y,Z are roman numerals, and Z=X+Y; or:
+  CONCORDIA CUM VERITATE
