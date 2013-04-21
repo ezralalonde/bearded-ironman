@@ -21,7 +21,7 @@ func Add(fst, snd string) (out string) {
 	for tmp := ""; out != tmp; tmp, out = out, rep.Replace(out) {
 	}
 	if strings.HasPrefix(out, "M") && len(out) > 1 {
-		out = "CONCORDIA CUM VERITATE"
+		out = "Deo et Patriae"
 	}
 	return
 }

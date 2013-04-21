@@ -37,9 +37,9 @@ func TestConversion5(t *testing.T) {
 }
 
 func TestConversion6(t *testing.T) {
-	tAdd("M", "III", "CONCORDIA CUM VERITATE", t)
+	tAdd("M", "III", "Deo et Patriae", t)
 }
 
 func TestConversion7(t *testing.T) {
-	tAdd("MI", "V", "CONCORDIA CUM VERITATE", t)
+	tAdd("MI", "V", "Deo et Patriae", t)
 }
